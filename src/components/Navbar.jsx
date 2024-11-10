@@ -1,4 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import CV from "../assets/cv/mycv.pdf";
 
 const Navbar = () => {
   return (
@@ -7,6 +8,13 @@ const Navbar = () => {
         <p className="text-3xl font-semibold">EdMA</p>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <a
+          href={CV}
+          target="_blank"
+          className="bg-neutral-700 px-2 py-1 rounded text-xs hover:bg-gray-500 transition-all"
+        >
+          CV
+        </a>
         <a
           href="https://www.linkedin.com/in/edly-mulya-andeslin-79a52326b/"
           target="_blank"

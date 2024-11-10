@@ -1,76 +1,88 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import animelistPict from "../assets/projects/animelist.png";
+import eskripsiPict from "../assets/projects/eskripsi.png";
+import portoPict from "../assets/projects/porto.png";
+import progresPict from "../assets/projects/progresprojek.png";
+import spdjPict from "../assets/projects/spdj.png";
+import todoPict from "../assets/projects/todo.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate web developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like Reactjs, Nextjs and Livewire, as well as back-end technologies like Laravel, Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate web developer with 1 year of experience, dedicated to building user-friendly and efficient web applications. I work with technologies like React, Nextjs, Livewire, Laravel, Node.js, MySQL, and PostgreSQL. My journey in development started with curiosity and has grown into a drive to learn and take on new challenges. I enjoy collaborating with others to solve complex problems and am focused on continuously improving my skills. Outside of work, I like exploring the latest in tech and staying active.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: "Freelancer",
+    company: "Anywhere",
+    description:
+      "I offer web development services that prioritize innovative solutions to help your business grow. Using the latest technologies and an efficient approach, I ensure that every project is completed to the highest quality and on time. My focus is on providing optimal user experience, enhancing functionality, and supporting your business goals through reliable and responsive web applications.",
+    technologies: [
+      "React",
+      "NextJs",
+      "Livewire",
+      "Laravel",
+      "Filament",
+      "Tailwind",
+      "MySQL",
+      "Postgre",
+    ],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Sep 2023 - Des 2023",
+    role: "Junior Web Developer",
+    company: "PT Garuda Cyber Indonesia (Intern).",
+    description:
+      "Led a team in developing and maintaining web applications using Laravel, Tailwind, and MySQL. Implemented RESTful APIs and integrated with MySQL databases. Collaborated with stakeholders to define project requirements and timelines.",
+    technologies: ["Laravel", "Bootstrap 5", "MySQL"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
     title: "Portfolio Website",
-    image: project3,
+    image: portoPict,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Anime List Website",
+    image: animelistPict,
+    description: `Anime List website is a platform that allows users to search, save, and organize their favorite anime lists. Users can add anime to their "watching", "already watched", or "want to watch" lists, as well as view information such as genre, synopsis, ratings, and airing schedules.`,
+    technologies: ["Next Js", "Next-Auth", "Tailwind", "MySQL"],
+  },
+  {
+    title: "Todo List",
+    image: todoPict,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "An application that helps users create shopping lists, organize items to be purchased, and monitor shopping progress. Users can add, edit, or delete items, and mark items that have been purchased.",
+    technologies: ["HTML", "CSS", "React", "Web Storage"],
+  },
+  {
+    title: "E-Thesis Information System",
+    image: eskripsiPict,
+    description:
+      "The E-Thesis Information System is a platform to make it easier for students to manage the thesis writing process online, starting from submitting a title, selecting a supervisor, to uploading and revising the thesis. This system also allows lecturers to provide feedback and monitor the progress of students' thesis.",
+    technologies: ["HTML", "CSS", "Laravel", "Bootstrap 5", "MySQL"],
+  },
+  {
+    title: "Acne Diagnosis Expert System",
+    image: spdjPict,
+    description:
+      "Acne Diagnosis Expert System is an application that diagnoses acne based on the symptoms experienced by the user and provides treatment recommendations according to the knowledge of dermatologists.",
+    technologies: ["Laravel", "Bootstrap 5", "MySQL", "Expert Knowledge"],
+  },
+  {
+    title: "Internship Project Progress",
+    image: progresPict,
+    description:
+      "Internship Project Progress is a work progress report that shows achievements, tasks completed, and obstacles encountered during the internship period. This report helps monitor progress, ensure project goals are achieved, and provides an overview of the skills and experiences gained during the internship.",
+    technologies: ["HTML", "CSS", "Bootstrap 5", "Laravel", "MySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Jl Bukit Beringin, Pasir Pengaraian, Rokan Hulu, Riau.",
+  phoneNo: "+62 8137 4653 119 ",
+  email: "edlymulyaandeslin@gmail.com",
 };
