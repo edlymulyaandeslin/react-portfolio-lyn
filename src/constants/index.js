@@ -3,6 +3,7 @@ import eskripsiPict from "../assets/projects/eskripsi.png";
 import portoPict from "../assets/projects/porto.png";
 import progresPict from "../assets/projects/progresprojek.png";
 import spdjPict from "../assets/projects/spdj.png";
+import sptjPict from "../assets/projects/sptj.png";
 import todoPict from "../assets/projects/todo.png";
 
 export const HERO_CONTENT = `I am a passionate web developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like Reactjs, Nextjs and Livewire, as well as back-end technologies like Laravel, Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -38,6 +39,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "citrus plant diagnosis expert system",
+    image: sptjPict,
+    description:
+      "The Citrus Plant Diagnostic Expert System is an AI-based application that helps farmers identify diseases or pests in oranges and provides treatment recommendations.",
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
+  },
   {
     title: "Portfolio Website",
     image: portoPict,
