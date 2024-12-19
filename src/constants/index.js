@@ -40,7 +40,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "citrus plant diagnosis expert system",
+    title: "Citrus Plant Diagnosis Expert System",
     image: sptjPict,
     description:
       "The Citrus Plant Diagnostic Expert System is an AI-based application that helps farmers identify diseases or pests in oranges and provides treatment recommendations.",
