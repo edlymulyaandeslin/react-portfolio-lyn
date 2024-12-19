@@ -44,7 +44,7 @@ export const PROJECTS = [
     image: sptjPict,
     description:
       "The Citrus Plant Diagnostic Expert System is an AI-based application that helps farmers identify diseases or pests in oranges and provides treatment recommendations.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
+    technologies: ["Laravel", "Inertia", "React", "Tailwind"],
   },
   {
     title: "Portfolio Website",
