@@ -22,7 +22,7 @@ I am highly committed to producing applications that are efficient, easy to use,
 
 export const EXPERIENCES = [
   {
-    year: '2024 - Present',
+    year: '2022 - Present',
     role: 'Freelancer',
     company: 'Anywhere',
     description:
