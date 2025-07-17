@@ -1,5 +1,5 @@
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
-import CV from "../assets/cv/mycv.pdf";
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa6';
+import CV from '../assets/cv/CV_Edly_Mulya_Andeslin_Engineer.pdf';
 
 const Navbar = () => {
   return (

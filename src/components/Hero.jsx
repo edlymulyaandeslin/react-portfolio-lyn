@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
-import profilePic from "../assets/lynprofil.jpg";
-import { HERO_CONTENT } from "../constants";
+import { motion } from 'framer-motion';
+import profilePic from '../assets/lynprofil.jpg';
+import { HERO_CONTENT } from '../constants';
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -34,7 +34,7 @@ const Hero = () => {
               Web Developer
             </motion.span>
             <motion.p
-              style={{ textIndent: "2rem" }}
+              style={{ textIndent: '2rem' }}
               variants={container(1)}
               initial="hidden"
               animate="visible"
@@ -51,7 +51,7 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
-              width={"60%"}
+              width={'60%'}
               alt="#EdlyMA"
               className="rounded-2xl"
             />
