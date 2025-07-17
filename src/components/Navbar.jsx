@@ -16,15 +16,15 @@ const Navbar = () => {
           CV
         </a>
         <a
-          href="https://www.linkedin.com/in/edly-mulya-andeslin-79a52326b/"
+          href="https://www.linkedin.com/in/edly-mulya-andeslin"
           target="_blank"
         >
           <FaLinkedin />
         </a>
-        <a href="https://github.com/edlymulyaandeslin/" target="_blank">
+        <a href="https://github.com/edlymulyaandeslin" target="_blank">
           <FaGithub />
         </a>
-        <a href="https://www.instagram.com/__elyynn/" target="_blank">
+        <a href="https://www.instagram.com/__elyynn" target="_blank">
           <FaInstagram />
         </a>
       </div>
