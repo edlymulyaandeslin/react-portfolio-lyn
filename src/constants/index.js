@@ -11,6 +11,7 @@ import spdjPict from '../assets/projects/spdj.png';
 import spkTopsis from '../assets/projects/spk-rekom-laptop-topsis.png';
 import sptjPict from '../assets/projects/sptj.png';
 import todoPict from '../assets/projects/todo.png';
+import webScraping from '../assets/projects/webscraping.png';
 
 export const HERO_CONTENT = `I am a passionate web developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like Reactjs, Nextjs and Livewire, as well as back-end technologies like Laravel, Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -49,6 +50,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: 'Web Scraping SIPD',
+    image: webScraping,
+    description:
+      'Web scraping application to retrieve and process data from the Regional Government Information System (SIPD), thus facilitating the analysis and presentation of public information efficiently.',
+    technologies: ['Laravel', 'React', 'Python'],
+  },
   {
     title:
       'Laptop Recommendation Decision Support System Using the TOPSIS Method',
