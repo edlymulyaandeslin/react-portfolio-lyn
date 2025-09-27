@@ -3,6 +3,7 @@ import animelistPict from '../assets/projects/animelist.png';
 import inventorySystem from '../assets/projects/e-inventory-fifo-method.png';
 import eTravel from '../assets/projects/e-travel.png';
 import eskripsiPict from '../assets/projects/eskripsi.png';
+import moneyTracker from '../assets/projects/lynmoneytracker.my.id_.png';
 import pointOfSales from '../assets/projects/point-of-sales.png';
 import portoPict from '../assets/projects/porto.png';
 import progresPict from '../assets/projects/progresprojek.png';
@@ -51,6 +52,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: 'Money Tracker',
+    image: moneyTracker,
+    description:
+      'A web-based application designed to help users manage and track their personal finances, including income, expenses, and report every month. You can visit the website at https://lynmoneytracker.my.id/',
+    technologies: [
+      'Laravel',
+      'React',
+      'Typescript',
+      'Tailwind',
+      'Midtrans API',
+      'MySQL',
+    ],
+  },
+  {
     title: 'Web Scraping SIPD',
     image: webScraping,
     description:
@@ -91,7 +106,7 @@ export const PROJECTS = [
     image: aiGenerateJudul,
     description:
       'An AI-powered app using Gemini to generate relevant research titles based on user-input topics or keywords.',
-    technologies: ['Laravel', 'Inertia', 'React', 'Tailwind', 'Gemini'],
+    technologies: ['Laravel', 'Inertia', 'React', 'Tailwind', 'Gemini API'],
   },
   {
     title: 'Point of Sales',
@@ -131,7 +146,7 @@ export const PROJECTS = [
     title: 'E-Thesis Information System',
     image: eskripsiPict,
     description:
-      "The E-Thesis Information System is a platform to make it easier for students to manage the thesis writing process online, starting from submitting a title, selecting a supervisor, to uploading and revising the thesis. This system also allows lecturers to provide feedback and monitor the progress of students' thesis.",
+      'The E-Thesis Information System is a platform to make it easier for students to manage the thesis writing process online, starting from submitting a title, selecting a supervisor, to uploading and revising the thesis. This system also allows lecturers to provide feedback and monitor the progress of students thesis. You can visit the website at https://sifilkom.com/',
     technologies: ['HTML', 'CSS', 'Laravel', 'Bootstrap 5', 'MySQL'],
   },
   {
